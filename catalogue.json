@@ -72,20 +72,6 @@
       "build": "build:ro-crate-2-profile"
     },
     {
-      "id": "ro-crate-masp",
-      "kind": "profile",
-      "name": "RO-Crate MASP Profile",
-      "summary": "Profile for RO-Crate Machine Actionable Profiles and Schemas (MASP).",
-      "version": "0.1.0",
-      "status": "",
-      "origin": "authored",
-      "classes": 13,
-      "properties": 29,
-      "docs": "profiles/ro-crate-masp/profile-crate/index.html",
-      "crate": "profiles/ro-crate-masp/profile-crate/ro-crate-metadata.json",
-      "build": "build:ro-crate-masp-profile"
-    },
-    {
       "id": "rocphotos",
       "kind": "profile",
       "name": "RO-Crate Photo Collection Profile",

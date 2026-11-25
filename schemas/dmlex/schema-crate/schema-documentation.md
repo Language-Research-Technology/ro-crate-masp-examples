@@ -4,7 +4,7 @@ title: DMLex Schema Terms
 
 # DMLex Schema Terms
 
-This MASP Schema was auto-generated from the RDF vocabulary of [DMLex](https://docs.oasis-open.org/lexidma/dmlex/v1.0/dmlex-v1.0.html), the OASIS Data Model for Lexicography (v1.0, OASIS Standard), using the `scripts/owl-to-masp.py` script. DMLex models dictionaries ("lexicographic resources"): entries, senses, definitions, examples, pronunciations and inflected forms, plus optional modules for crosslingual (bilingual and multilingual) resources, controlled values, linking between entries and senses, inline annotation, and etymology.
+[DMLex](https://docs.oasis-open.org/lexidma/dmlex/v1.0/dmlex-v1.0.html), the OASIS Data Model for Lexicography (v1.0, OASIS Standard), models dictionaries ("lexicographic resources"): entries, senses, definitions, examples, pronunciations and inflected forms, plus optional modules for crosslingual (bilingual and multilingual) resources, controlled values, linking between entries and senses, inline annotation, and etymology. This MASP Schema was auto-generated from DMLex's RDF vocabulary using the `scripts/owl-to-masp.py` script.
 
 The source is [`dmlex.ttl`](https://docs.oasis-open.org/lexidma/dmlex/v1.0/os/schemas/RDF/dmlex.ttl), the vocabulary file that defines the `https://docs.oasis-open.org/lexidma/dmlex/v1.0/schemas/RDF/dmlex.ttl#` namespace (see the spec's [RDF serialization design principles](https://docs.oasis-open.org/lexidma/dmlex/v1.0/dmlex-v1.0.html)). It combines all six modules; OASIS also publishes them as separate files alongside it.
 
