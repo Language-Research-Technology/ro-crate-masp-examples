@@ -7,6 +7,8 @@ const { MaspValidator } = require("@crate-works/ro-crate-masp-validator");
 
 // The draft LDAC-DMLex profile carries DMLex's per-class cardinality as
 // property rules; its example is the DMLex spec's basic entry (A.1.1).
+// These tests check the profile's rules. The validator's rdfs:Literal and
+// schema:URL handling is tested in crate-works/ro-crate-masp-validator.
 describe("LDAC-DMLex Profile", function () {
   this.timeout(10000);
 
@@ -63,23 +65,5 @@ describe("LDAC-DMLex Profile", function () {
     );
     expect(results.error).to.not.have.lengthOf(0);
     expect(validInstanceCount(results, "Entry")).to.equal(0);
-  });
-
-  it("accepts any literal for an rdfs:Literal range", async function () {
-    const results = await validate(
-      loadExample((byId) => {
-        byId["#abandon-verb"]["dmlex:headword"] = 42;
-      })
-    );
-    expect(results.error).to.have.lengthOf(0);
-  });
-
-  it("requires a schema:URL value to be a URL", async function () {
-    const results = await validate(
-      loadExample((byId) => {
-        byId["./"]["dmlex:uri"] = "not a url";
-      })
-    );
-    expect(results.error).to.not.have.lengthOf(0);
   });
 });
