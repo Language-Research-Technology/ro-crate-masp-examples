@@ -797,6 +797,12 @@ Instances of this type MAY be present in the crate.
 | <a href="#prop_ldac:accessControlList_DataReuseLicense" title="#prop_ldac:accessControlList_DataReuseLicense">ldac:accessControlList</a> | <a href="https://w3id.org/ldac/terms#accessControlList" target="_blank" rel="noopener">https://w3id.org/ldac/terms#accessControlList</a> | No | When a license has an authorizationWorkflow property with a value of the DefinedTerm AccessControlList this property has a URI value that points to a list of userIDs. | <a href="http://schema.org/URL" title="http://schema.org/URL" target="_blank" rel="noopener">URL</a> |  |
 | <a href="#prop_ldac:authorizationWorkflow_DataReuseLicense" title="#prop_ldac:authorizationWorkflow_DataReuseLicense">ldac:authorizationWorkflow</a> | <a href="https://w3id.org/ldac/terms#authorizationWorkflow" target="_blank" rel="noopener">https://w3id.org/ldac/terms#authorizationWorkflow</a> | No | By what process a user is granted authorization to a license. | <a href="#ldac%3AAuthorizationWorkflows" title="ldac:AuthorizationWorkflows">AuthorizationWorkflows</a> |  |
 
+#### Properties from DataLicense
+
+| Property | Specialization Of | Required | Description | Range | Value |
+| -------- | ----------------- | -------- | ----------- | ----- | ----- |
+| <a href="#prop_ldac:reviewDate_DataLicense" title="#prop_ldac:reviewDate_DataLicense">ldac:reviewDate</a> | <a href="https://w3id.org/ldac/terms#reviewDate" target="_blank" rel="noopener">https://w3id.org/ldac/terms#reviewDate</a> | No | The date that this license should be reviewed. | <a href="http://schema.org/Text" title="http://schema.org/Text" target="_blank" rel="noopener">Text</a> |  |
+
 
 ### <a id="class_Dataset" title="#class_Dataset"></a> Class: Dataset
 

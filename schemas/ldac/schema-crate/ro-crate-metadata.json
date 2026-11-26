@@ -548,8 +548,8 @@
       "rdfs:comment": "A description of an event at which one or more PrimaryMaterials were captured, e.g. as video or audio.",
       "rdfs:label": "CollectionEvent",
       "rdfs:subClassOf": [
-        "http://schema.org/Event",
-        "http://schema.org/CreateAction"
+        { "@id": "http://schema.org/Event" },
+        { "@id": "http://schema.org/CreateAction" }
       ]
     },
     {
