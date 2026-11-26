@@ -822,7 +822,9 @@
       "prov:specializationOf": {
         "@id": "https://w3id.org/ldac/terms#DataReuseLicense"
       },
-      "rdfs:subClassOf": "\"#DataLicense\"",
+      "rdfs:subClassOf": {
+        "@id": "#class_DataLicense"
+      },
       "rdfs:comment": "A license document, setting out terms for reuse of data.",
       "isPartOf": {
         "@id": "#hasSpecializedSchema"
