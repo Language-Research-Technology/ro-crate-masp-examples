@@ -41,12 +41,11 @@
   "author": "ptsefton",
   "license": "Apache-2.0",
   "homepage": "https://language-research-technology.github.io/ro-crate-masp-examples/",
-  "dependencies": {},
   "devDependencies": {
+    "@crate-works/ro-crate-masp-tools": "^0.1.0",
+    "@crate-works/ro-crate-masp-validator": "^0.1.0",
     "chai": "^6.2.1",
     "mocha": "^11.7.5",
-    "@crate-works/ro-crate-masp-tools": "github:crate-works/ro-crate-masp-tools",
-    "@crate-works/ro-crate-masp-validator": "^0.1.0",
     "ro-crate": "^3.6.1"
   }
 }
